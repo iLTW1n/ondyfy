@@ -5,6 +5,8 @@ const styles = {
     fontFamily: 'Source Sans Pro',
     fontWeight: 700,
     lineHeight: '18px',
+    textAlign: 'left',
+    marginBottom: '12px',
   },
 };
 
@@ -12,7 +14,7 @@ const defaultProps = {
   text: 'Esta Semana',
 };
 
-const Text4 = (props) => {
+const Text4 = (props: any) => {
   return (
     <div style={styles.Text}>
       {props.text ?? defaultProps.text}

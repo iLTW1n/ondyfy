@@ -5,10 +5,13 @@ const styles = {
     width: '375px',
     height: '64px',
     backgroundColor: '#282828',
+    display: 'flex',
+    alignItems: 'center',
+    marginBottom: '12px',
   },
 };
 
-const Header = (props) => {
+const Header = (props: any) => {
   return (
     <div style={styles.Header}>
       {props.children}

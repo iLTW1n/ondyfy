@@ -5,7 +5,8 @@ const styles = {
     fontFamily: 'Source Sans Pro',
     fontWeight: 600,
     lineHeight: '16px',
-    textAlign: 'right',
+    textAlign: 'center',
+    marginBottom: '12px',
   },
 };
 

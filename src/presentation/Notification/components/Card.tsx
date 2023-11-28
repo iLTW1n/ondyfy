@@ -8,6 +8,10 @@ const styles = {
     borderRadius: '24px',
     border: '1px solid #8a8a8a',
     boxSizing: 'border-box',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    padding: '0 12px',
   },
 };
 

@@ -8,6 +8,7 @@ const styles = {
     borderRadius: '24px',
     border: '1px solid #8a8a8a',
     boxSizing: 'border-box',
+    marginRight: '12px',
   },
 };
 

@@ -9,6 +9,8 @@ const styles = {
     backgroundPosition: 'center center',
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
+    marginRight: '12px',
+    marginLeft: '12px',
   },
 };
 
